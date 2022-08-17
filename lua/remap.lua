@@ -16,8 +16,9 @@ map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")
 
 
 -- debugger remapping
-map("n", "<leader>db", "<cmd>lua require('dap').toggle_breakpoint()<cr>")
-map("n", "<leader>dc", "<cmd>lua require('dap').continue()<cr>")
-map("n", "<leader>dr", "<cmd>lua require('dap').repl.open()<cr>")
+map("n", "<F9>", "<cmd>lua require('dap').toggle_breakpoint()<cr>")
+map("n", "<F5>", "<cmd>lua require('dap').continue()<cr>")
+map("n", "<F12>", "<cmd>lua require('dap').repl.open()<cr>")
 
+-- lsp remapping
 map('n', 'gd', "<cmd>lua vim.lsp.buf.definition()<cr>") 

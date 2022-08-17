@@ -15,4 +15,4 @@ vim.opt.wrap = false
 
 -- vim.cmd("colorscheme dracula")
 vim.g.mapleader = " "
-
+-- vim.g.clipboard="unnamed"
