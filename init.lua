@@ -1,6 +1,6 @@
-require("plugins")
-require("basic")
-require("remap")
-require("lsp-custom")
-require("dap-custom")
+require("user.plugins")
+require("user.basic")
+require("user.remap")
+require("user.lsp")
+require("user.dap")
 
