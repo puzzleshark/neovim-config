@@ -13,6 +13,6 @@ vim.opt.incsearch = true
 vim.opt.smartindent = true
 vim.opt.wrap = false
 
--- vim.cmd("colorscheme dracula")
+vim.cmd("colorscheme dracula")
 vim.g.mapleader = " "
 -- vim.g.clipboard="unnamed"

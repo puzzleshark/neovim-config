@@ -15,7 +15,8 @@ return require('packer').startup(function(use)
     use 'jose-elias-alvarez/null-ls.nvim'
 
     -- use 'mfussenegger/nvim-dap-python'
-    -- use {'dracula/vim', as = 'dracula'}
+    use {'dracula/vim', as = 'dracula'}
+    use 'morhetz/gruvbox'
     use {'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = {{'nvim-lua/plenary.nvim'}} }
     -- use {'ThePrimeagen/harpoon', requires = {{ 'nvim-lua/plenary.nvim' }} }
 
@@ -33,5 +34,8 @@ return require('packer').startup(function(use)
     -- use 'hrsh7th/vim-vsnip'
     use 'L3MON4D3/LuaSnip'
     use 'saadparwaiz1/cmp_luasnip'
+
+    -- treesitter?
+    use 'nvim-treesitter/nvim-treesitter' 
 end)
 
