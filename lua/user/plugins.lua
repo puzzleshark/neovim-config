@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 
     -- use 'mfussenegger/nvim-dap-python'
     -- use {'dracula/vim', as = 'dracula'}
+    use 'folke/tokyonight.nvim'
     use {'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = {{'nvim-lua/plenary.nvim'}} }
     -- use {'ThePrimeagen/harpoon', requires = {{ 'nvim-lua/plenary.nvim' }} }
 

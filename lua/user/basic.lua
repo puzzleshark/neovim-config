@@ -14,5 +14,6 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 -- vim.cmd("colorscheme dracula")
+vim.cmd[[colorscheme tokyonight]]
 vim.g.mapleader = " "
 -- vim.g.clipboard="unnamed"
